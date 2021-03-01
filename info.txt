@@ -1,0 +1,10 @@
+
+
+
+[2021 Feb 28 Sun 10:05pm] To keep my website skills fresh and to keep up with the lingo of python, this basic website is created. For know, I following the Codecademy cheatsheets and adding examples where fit. In the future, information from LinkedIn and other sources will be added. Currently, I sure how far I want to take this. Right now, I am copying the format from the first cheatsheet I did with HTML and CSS. Although I have started a repository for this project thru git; I am going to (attempted) to write all updates and changes here, so if this is dropped for some time and I come back to it, I know what work was and was not done.
+	
+	[10:21pm] 	"Added two files: index.html and style.css. Dont not know why I did not initially include a css file. As for the index.html; the idea is to create a homepage that connects all the lessons together." 	
+	"Added the basic webpage structure to hello_world.html; including a title and a h1 heading." 
+
+
+
