@@ -7,4 +7,4 @@
 	"Added the basic webpage structure to hello_world.html; including a title and a h1 heading." 
 
 
-
+[2021 March 3 Wed 11:24pm] Updated the hello_world webpage. Created the table; added the table heading, constricted the basic bones of the table. Entered the names each row. Completed the 'Comments' section. Added classes to each section. 
