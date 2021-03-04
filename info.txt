@@ -8,3 +8,6 @@
 
 
 [2021 March 3 Wed 11:24pm] Updated the hello_world webpage. Created the table; added the table heading, constricted the basic bones of the table. Entered the names each row. Completed the 'Comments' section. Added classes to each section. 
+
+
+[2021 March 4 Thur 4:57pm] Added content for theses sections: Arithmetic Operators, Plus-Equal Operators, and Variables. Added  classes for all name, description and example headings. Added a key for the short handed class names. 

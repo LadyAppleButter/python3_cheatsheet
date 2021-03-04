@@ -7,21 +7,25 @@
 	</head>
 	<body>
 		<h1>Hello World</h1>
-		
+		<!--
+			des -description
+			ex - example
+			term - keyterm
+		-->
 		<!--Table-->
 		<table>
 			<thead>
-				<tr>
+				<tr class = "head">
 					<th>Key Term(s)</th>
 					<th>Description</th>
 					<th>Examples</th>
 				</tr>
 			</thead>
 			<tbody>
-				<tr class = "Comments">
-					<th>Comments</th>
-					<th>A piece of text that is not executed. Used to provide additional information about the program. Comments can be on a single line or multiple lines.</th>
-					<th>
+				<tr class = "comments">
+					<th class = "com_term">Comments</th>
+					<th class = "com_des">A piece of text that is not executed. Used to provide additional information about the program. Comments can be on a single line or multiple lines.</th>
+					<th class = "com_ex">
 						<br>#Comment on a single line
 						<br>"""
 						<br>Comments on multiple lines
@@ -33,69 +37,97 @@
 					</th>
 				</tr>
 				<tr class = "arithmetic">
-					<th>Arithmetic</th>
-					<th></th>
-					<th></th>
+					<th class = "art_term">Arithmetic</th>
+					<th class = "art_des">Operators that can be performed on numbers, variables, or some combination of the two. These operators include:
+						<div class = "math_ops">
+							<br>+ for addition
+							<br>- for subtraction
+							<br>/ for division
+							<br>* for multiplication
+							<br>% for modulus (return the remainder)
+							<br>** for exponent
+						</div>
+					</th>
+					<th class = "art_ex">
+						<br> add_num = a + z
+						<br> sub_num = a - z
+						<br> div_num = a / z
+						<br> mul_num = a * z
+						<br> mod_num = a % z
+						<br> exp_num = a ** z
+					</th>
 				</tr>
 				<tr class = "plus-equal">
-					<th>Plus-Equals Operators</th>
-					<th></th>
-					<th></th>
+					<th class = "plus_term">Plus-Equals Operators</th>
+					<th class = "plus_des">Adds values to an existing variable or ,if the variable contains strings, adds the string to the existing string (concatenation). </th>
+					<th class = "plus_ex">
+						<br># Numbers - result will be 10
+						<br> counter = 5
+						<br> counter += 5
+						<br> #Strings - result will be "Apples Oranges"
+						<br> fruit = "Apples "
+						<br> fruit += "Oranges"
+						
+					</th>
 				</tr>
 				<tr class = "variables">
-					<th>Variables</th>
-					<th></th>
-					<th></th>
+					<th class = "var_term">Variables</th>
+					<th "var_des">Used to store data. The data can be a number, Boolean, string, or another data type. Every variable has a name which can contain numbers, letters and an underscore (-). The equal sign (=) is used to assign a value to the variable.</th>
+					<th class = "var_ex">
+						<br>food_type = "apple banana orange apple"
+						<br>num_apple = 2
+						<br>veggie = False
+					</th>
 				</tr>
 				<tr class = "modulo">
-					<th>Modulo Operator</th>
-					<th></th>
-					<th></th>
+					<th class  = "mod_term">Modulo Operator</th>
+					<th class = "mod_des"></th>
+					<th class = "mod_ex"></th>
 				</tr>
 				<tr class = "integers">
-					<th>Integers</th>
-					<th></th>
-					<th></th>
+					<th class = "int_term">Integers</th>
+					<th class = "int_des"></th>
+					<th class = "int_ex"></th>
 				</tr>
-				<tr class = "string_con">
-					<th>String Concatenation</th>
-					<th></th>
-					<th></th>
+				<tr class = "concate">
+					<th class = "con_term">String Concatenation</th>
+					<th class = "con_des"></th>
+					<th class = "con_ex"></th>
 				</tr>
 				<tr class = "errors">
-					<th>Errors</th>
-					<th></th>
-					<th></th>
+					<th class = "err_term">Errors</th>
+					<th class = "err-des"></th>
+					<th class = "err_ex"></th>
 				</tr>
 				<tr class = "zero_err">
-					<th>ZeroDivisionError</th>
-					<th></th>
-					<th></th>
+					<th class = "z_term">ZeroDivisionError</th>
+					<th class = "z_des"></th>
+					<th class = "z_ex"></th>
 				</tr>
 				<tr class = "string">
-					<th>String</th>
-					<th></th>
-					<th></th>
+					<th class = "str_term">String</th>
+					<th class = "str-des"></th>
+					<th class = "str_ex"></th>
 				</tr>
 				<tr class = "syntax_err">
-					<th>SyntaxError</th>
-					<th></th>
-					<th></th>
+					<th class = "syn_term">SyntaxError</th>
+					<th class = "syn-des"></th>
+					<th class = "syn_ex"></th>
 				</tr>
 				<tr class = "name_err">
-					<th>NameError</th>
-					<th></th>
-					<th></th>
+					<th class = "name_term">NameError</th>
+					<th class = "name-des"></th>
+					<th class = "name_ex"></th>
 				</tr>
 				<tr class = "float_point">
-					<th>Floating Point Name</th>
-					<th></th>
-					<th></th>
+					<th class = "flt_term">Floating Point Name</th>
+					<th class = "flt-des"></th>
+					<th class = "flt_ex"></th>
 				</tr>
 				<tr class = "print">
-					<th>Print</th>
-					<th></th>
-					<th></th>
+					<th class = "pnt_term">Print</th>
+					<th class = "pnt_des"></th>
+					<th class = "pnt_ex></th>
 				</tr>
 			</tbody>
 		
