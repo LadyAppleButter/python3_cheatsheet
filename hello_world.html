@@ -36,6 +36,33 @@
 					
 					</th>
 				</tr>
+				<tr class = "variables">
+					<th class = "var_term">Variables</th>
+					<th "var_des">Used to store data. The data can be a number, Boolean, string, or another data type. Every variable has a name which can contain numbers, letters and an underscore (-). The equal sign (=) is used to assign a value to the variable.</th>
+					<th class = "var_ex">
+						<br>food_type = "apple banana orange apple"
+						<br>num_apple = 2
+						<br>veggie = False
+					</th>
+				</tr> 
+				<tr class = "integers">
+					<th class = "int_term">Integers</th>
+					<th class = "int_des">A number is written without a fraction or decimal point. Can be negative, positive or 0.</th>
+					<th class = "int_ex">
+						<br> bunch_bananas = 5
+						<br> bag_apples = 10
+						<br> slice_pizza = 8
+					</th>
+				</tr>
+				<tr class = "float_point">
+					<th class = "flt_term">Floating Point Name</th>
+					<th class = "flt-des">Number than contains a decimal point.</th>
+					<th class = "flt_ex">
+						<br> pi = 3.14159
+						<br> meal_cost = 9.99
+						<br> tip_percent = 0.15
+					</th>
+				</tr>
 				<tr class = "arithmetic">
 					<th class = "art_term">Arithmetic</th>
 					<th class = "art_des">Operators that can be performed on numbers, variables, or some combination of the two. These operators include:
@@ -70,64 +97,77 @@
 						
 					</th>
 				</tr>
-				<tr class = "variables">
-					<th class = "var_term">Variables</th>
-					<th "var_des">Used to store data. The data can be a number, Boolean, string, or another data type. Every variable has a name which can contain numbers, letters and an underscore (-). The equal sign (=) is used to assign a value to the variable.</th>
-					<th class = "var_ex">
-						<br>food_type = "apple banana orange apple"
-						<br>num_apple = 2
-						<br>veggie = False
-					</th>
-				</tr>
+				<!--Started with Modulo, 3/8-->
 				<tr class = "modulo">
 					<th class  = "mod_term">Modulo Operator</th>
-					<th class = "mod_des"></th>
-					<th class = "mod_ex"></th>
-				</tr>
-				<tr class = "integers">
-					<th class = "int_term">Integers</th>
-					<th class = "int_des"></th>
-					<th class = "int_ex"></th>
-				</tr>
-				<tr class = "concate">
-					<th class = "con_term">String Concatenation</th>
-					<th class = "con_des"></th>
-					<th class = "con_ex"></th>
-				</tr>
-				<tr class = "errors">
-					<th class = "err_term">Errors</th>
-					<th class = "err-des"></th>
-					<th class = "err_ex"></th>
-				</tr>
-				<tr class = "zero_err">
-					<th class = "z_term">ZeroDivisionError</th>
-					<th class = "z_des"></th>
-					<th class = "z_ex"></th>
+					<th class = "mod_des">Caculates the return the remainder of a division between the first and second number</th>
+					<th class = "mod_ex">
+						<br> #Result will return 0
+						<br> zero = 10 % 5
+						<br> #Result will return 2
+						<br> nonzero = 10 % 8
+					</th>
 				</tr>
 				<tr class = "string">
 					<th class = "str_term">String</th>
-					<th class = "str-des"></th>
-					<th class = "str_ex"></th>
+					<th class = "str-des">Sequence of chaaracters (letters, numbers, whitespace or punctuation) enclosed by (either double or single) quotations marks. </th>
+					<th class = "str_ex">
+						<br> fruit = "apple"
+						<br> fruit_type = "Red Delicous"
+					</th>
 				</tr>
-				<tr class = "syntax_err">
-					<th class = "syn_term">SyntaxError</th>
-					<th class = "syn-des"></th>
-					<th class = "syn_ex"></th>
-				</tr>
-				<tr class = "name_err">
-					<th class = "name_term">NameError</th>
-					<th class = "name-des"></th>
-					<th class = "name_ex"></th>
-				</tr>
-				<tr class = "float_point">
-					<th class = "flt_term">Floating Point Name</th>
-					<th class = "flt-des"></th>
-					<th class = "flt_ex"></th>
+				<tr class = "concate">
+					<th class = "con_term">String Concatenation</th>
+					<th class = "con_des">Joining strings together using the + operator. Variables and strings can be joined together; joining variables requires the str() function. White space matters when concatenating.</th>
+					<th class = "con_ex">
+						<br>#Prints "Fruit Salad"
+						<br>first = "Fruit "
+						<br>second = "Salad"
+						<br>result = first + second
+						
+					</th>
 				</tr>
 				<tr class = "print">
 					<th class = "pnt_term">Print</th>
-					<th class = "pnt_des"></th>
-					<th class = "pnt_ex></th>
+					<th class = "pnt_des">Outputs printable information to the console. </th>
+					<th class = "pnt_ex"> 
+						<br>print("Fruit Salad")
+						<br>print(10)
+						<br>fruit = "Apples and Oranges"
+						<br>print(fruit)
+					</th>
+				</tr>
+				<tr class = "errors">
+					<th class = "err_term">Errors</th>
+					<th class = "err-des">If there are issues in your code, an error message will appear.</th>
+					<th class = "err_ex">
+						<br>syntax_error = The quotations are missing
+						<br> SyntaxError: invalid syntax
+					</th>
+				</tr>
+				<tr class = "syntax_err">
+					<th class = "syn_term">SyntaxError</th>
+					<th class = "syn-des">Error is reported when a part of the code is incorrect.</th>
+					<th class = "syn_ex">
+						<br> diff_quot = "The quotation here are different'
+					</th>
+				</tr>
+				<tr class = "name_err">
+					<th class = "name_term">NameError</th>
+					<th class = "name-des">Error is reported when an unknown variable is detected.</th>
+					<th class = "name_ex">
+						<br> unassigned_variable
+					</th>
+				</tr>
+				<tr class = "zero_err">
+					<th class = "z_term">ZeroDivisionError</th>
+					<th class = "z_des">Reported when a division operation is performed and the denominator(bottom number) is 0. </th>
+					<th class = "z_ex">
+						<br> numerator = 10
+						<br> denominator = 0
+						<br> bad_result = numerator / denominator
+						<br> ZeroDivisionError: division by zero
+					</th>
 				</tr>
 			</tbody>
 		
