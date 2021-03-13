@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<link href="style.css" type="text/css" rel="stylesheet"/>
 		<title>Python3_Hello World</title>
 		<meta charset="utf-8"/>
 	</head>
@@ -23,9 +24,9 @@
 			</thead>
 			<tbody>
 				<tr class = "comments">
-					<th class = "com_term">Comments</th>
-					<th class = "com_des">A piece of text that is not executed. Used to provide additional information about the program. Comments can be on a single line or multiple lines.</th>
-					<th class = "com_ex">
+					<th class = "term">Comments</th>
+					<th class = "des">A piece of text that is not executed. Used to provide additional information about the program. Comments can be on a single line or multiple lines.</th>
+					<th class = "ex">
 						<br>#Comment on a single line
 						<br>"""
 						<br>Comments on multiple lines
@@ -36,37 +37,37 @@
 					
 					</th>
 				</tr>
-				<tr class = "variables">
-					<th class = "var_term">Variables</th>
-					<th "var_des">Used to store data. The data can be a number, Boolean, string, or another data type. Every variable has a name which can contain numbers, letters and an underscore (-). The equal sign (=) is used to assign a value to the variable.</th>
-					<th class = "var_ex">
+				<tr class = "var">
+					<th class = "term">Variables</th>
+					<th "des">Used to store data. The data can be a number, Boolean, string, or another data type. Every variable has a name which can contain numbers, letters and an underscore (-). The equal sign (=) is used to assign a value to the variable.</th>
+					<th class = "ex">
 						<br>food_type = "apple banana orange apple"
 						<br>num_apple = 2
 						<br>veggie = False
 					</th>
 				</tr> 
-				<tr class = "integers">
-					<th class = "int_term">Integers</th>
-					<th class = "int_des">A number is written without a fraction or decimal point. Can be negative, positive or 0.</th>
-					<th class = "int_ex">
+				<tr class = "int">
+					<th class = "term">Integers</th>
+					<th class = "des">A number is written without a fraction or decimal point. Can be negative, positive or 0.</th>
+					<th class = "ex">
 						<br> bunch_bananas = 5
 						<br> bag_apples = 10
 						<br> slice_pizza = 8
 					</th>
 				</tr>
-				<tr class = "float_point">
-					<th class = "flt_term">Floating Point Name</th>
-					<th class = "flt-des">Number than contains a decimal point.</th>
-					<th class = "flt_ex">
+				<tr class = "float">
+					<th class = "term">Floating Point Name</th>
+					<th class = "des">Number than contains a decimal point.</th>
+					<th class = "ex">
 						<br> pi = 3.14159
 						<br> meal_cost = 9.99
 						<br> tip_percent = 0.15
 					</th>
 				</tr>
-				<tr class = "arithmetic">
-					<th class = "art_term">Arithmetic</th>
-					<th class = "art_des">Operators that can be performed on numbers, variables, or some combination of the two. These operators include:
-						<div class = "math_ops">
+				<tr class = "art">
+					<th class = "term">Arithmetic</th>
+					<th class = "des">Operators that can be performed on numbers, variables, or some combination of the two. These operators include:
+						<div class = "math">
 							<br>+ for addition
 							<br>- for subtraction
 							<br>/ for division
@@ -75,7 +76,7 @@
 							<br>** for exponent
 						</div>
 					</th>
-					<th class = "art_ex">
+					<th class = "ex">
 						<br> add_num = a + z
 						<br> sub_num = a - z
 						<br> div_num = a / z
@@ -84,10 +85,10 @@
 						<br> exp_num = a ** z
 					</th>
 				</tr>
-				<tr class = "plus-equal">
-					<th class = "plus_term">Plus-Equals Operators</th>
-					<th class = "plus_des">Adds values to an existing variable or ,if the variable contains strings, adds the string to the existing string (concatenation). </th>
-					<th class = "plus_ex">
+				<tr class = "plus_equal">
+					<th class = "term">Plus-Equals Operators</th>
+					<th class = "des">Adds values to an existing variable or ,if the variable contains strings, adds the string to the existing string (concatenation). </th>
+					<th class = "ex">
 						<br># Numbers - result will be 10
 						<br> counter = 5
 						<br> counter += 5
@@ -99,9 +100,9 @@
 				</tr>
 				<!--Started with Modulo, 3/8-->
 				<tr class = "modulo">
-					<th class  = "mod_term">Modulo Operator</th>
-					<th class = "mod_des">Caculates the return the remainder of a division between the first and second number</th>
-					<th class = "mod_ex">
+					<th class  = "term">Modulo Operator</th>
+					<th class = "des">Caculates the return the remainder of a division between the first and second number</th>
+					<th class = "ex">
 						<br> #Result will return 0
 						<br> zero = 10 % 5
 						<br> #Result will return 2
@@ -109,17 +110,17 @@
 					</th>
 				</tr>
 				<tr class = "string">
-					<th class = "str_term">String</th>
-					<th class = "str-des">Sequence of chaaracters (letters, numbers, whitespace or punctuation) enclosed by (either double or single) quotations marks. </th>
-					<th class = "str_ex">
+					<th class = "term">String</th>
+					<th class = "des">Sequence of chaaracters (letters, numbers, whitespace or punctuation) enclosed by (either double or single) quotations marks. </th>
+					<th class = "ex">
 						<br> fruit = "apple"
 						<br> fruit_type = "Red Delicous"
 					</th>
 				</tr>
 				<tr class = "concate">
-					<th class = "con_term">String Concatenation</th>
-					<th class = "con_des">Joining strings together using the + operator. Variables and strings can be joined together; joining variables requires the str() function. White space matters when concatenating.</th>
-					<th class = "con_ex">
+					<th class = "term">String Concatenation</th>
+					<th class = "des">Joining strings together using the + operator. Variables and strings can be joined together; joining variables requires the str() function. White space matters when concatenating.</th>
+					<th class = "ex">
 						<br>#Prints "Fruit Salad"
 						<br>first = "Fruit "
 						<br>second = "Salad"
@@ -128,9 +129,9 @@
 					</th>
 				</tr>
 				<tr class = "print">
-					<th class = "pnt_term">Print</th>
-					<th class = "pnt_des">Outputs printable information to the console. </th>
-					<th class = "pnt_ex"> 
+					<th class = "term">Print</th>
+					<th class = "des">Outputs printable information to the console. </th>
+					<th class = "ex"> 
 						<br>print("Fruit Salad")
 						<br>print(10)
 						<br>fruit = "Apples and Oranges"
@@ -138,31 +139,31 @@
 					</th>
 				</tr>
 				<tr class = "errors">
-					<th class = "err_term">Errors</th>
-					<th class = "err-des">If there are issues in your code, an error message will appear.</th>
-					<th class = "err_ex">
+					<th class = "term">Errors</th>
+					<th class = "des">If there are issues in your code, an error message will appear.</th>
+					<th class = "ex">
 						<br>syntax_error = The quotations are missing
 						<br> SyntaxError: invalid syntax
 					</th>
 				</tr>
 				<tr class = "syntax_err">
-					<th class = "syn_term">SyntaxError</th>
-					<th class = "syn-des">Error is reported when a part of the code is incorrect.</th>
-					<th class = "syn_ex">
+					<th class = "term">SyntaxError</th>
+					<th class = "des">Error is reported when a part of the code is incorrect.</th>
+					<th class = "ex">
 						<br> diff_quot = "The quotation here are different'
 					</th>
 				</tr>
 				<tr class = "name_err">
-					<th class = "name_term">NameError</th>
-					<th class = "name-des">Error is reported when an unknown variable is detected.</th>
-					<th class = "name_ex">
+					<th class = "term">NameError</th>
+					<th class = "des">Error is reported when an unknown variable is detected.</th>
+					<th class = "ex">
 						<br> unassigned_variable
 					</th>
 				</tr>
 				<tr class = "zero_err">
-					<th class = "z_term">ZeroDivisionError</th>
-					<th class = "z_des">Reported when a division operation is performed and the denominator(bottom number) is 0. </th>
-					<th class = "z_ex">
+					<th class = "term">ZeroDivisionError</th>
+					<th class = "des">Reported when a division operation is performed and the denominator(bottom number) is 0. </th>
+					<th class = "ex">
 						<br> numerator = 10
 						<br> denominator = 0
 						<br> bad_result = numerator / denominator

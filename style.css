@@ -1,0 +1,38 @@
+
+/*Global Format*/
+html{
+	background-color: #6666ff; /*Soft blue*/
+	font-family: 'courier new', san-serif;
+}
+
+/*Heading*/
+h1{
+	text-align: center;
+	font-size: 300%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+/*Table*/
+	/**Table - Body**/
+
+tbody {
+	font-size: 100%;
+}
+
+.comments, .int, .art, .modulo, .concate, .errors, .name_err{
+	background-color: #9999ff; /*Lighter blue*/
+	
+}
+
+.var, .float, .plus_equal, .string, .print, .syntax_err, .zero_err {
+	background-color: #ccccff; /*Lightest blue*/
+}
+
+
+
+
+	/**Table - Headings**/
+.head{
+	font-size: 150%;
+}

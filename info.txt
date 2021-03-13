@@ -15,3 +15,23 @@
 [2021 March 8 Mon 8:30pm] Finished adding content to the webpage: Modulo, Intergers, Float Point, SyntaxError, NameError, ZeroDivision Error, Print Function, Strings, String Contenation sections have been completed filled. Moved Variables to the top, place Strings and String Contenation together, place all errors sections together, place Intergers and Float Point together. 
 
 Next time, start formating. Position the heading and text to make more appealing, change the font face, change size and add a background color. 
+
+
+[2021 March 9 Tues 6:58pm] Start adding style to the hello_world. Added a background color, a font family, colors to the table, alter the size of text, change the alignment of h1. Also altered the class name of some the elements inorder to simplied the process of styling the webpage. 
+
+Next time we will mess with the margin and padding of the table.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
