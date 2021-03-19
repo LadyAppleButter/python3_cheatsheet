@@ -12,12 +12,13 @@ h1{
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
-
+/******************************HELLO_WORLD******************************************/
 /*Table*/
 	/**Table - Body**/
 
 tbody {
-	font-size: 100%;
+	font-size: 110%;
+	
 }
 
 .comments, .int, .art, .modulo, .concate, .errors, .name_err{
@@ -31,8 +32,15 @@ tbody {
 
 
 
+.ex{
+	padding: 20px;
+	text-align: left;
+}
 
 	/**Table - Headings**/
 .head{
 	font-size: 150%;
 }
+
+/*******************************Control Flow *************************/
+
