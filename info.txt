@@ -21,7 +21,24 @@ Next time, start formating. Position the heading and text to make more appealing
 
 Next time we will mess with the margin and padding of the table.
 
+[2021 March 13 Sat 4:12pm] 
 
+Hello_World
+	Added padding to the examples column. Increase the font size of the table. 
+	
+	Next time: find out how to remove white space from the description column. 
+	
+Control_Flow
+	Created a webpage called control_flow
+	
+	Copied and pasted the format from hello_world to control_flow. 
+
+[2021 March 18 Thurs 8:41pm]
+
+Today is to place examples for control flow webpage and connect it to the helloworld page.
+
+	Control Flow
+		Added examples three sections: elif statement, or statement, and handling exceptions.
 
 
 
