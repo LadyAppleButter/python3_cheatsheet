@@ -44,3 +44,63 @@ tbody {
 
 /*******************************Control Flow *************************/
 
+/*Table*/
+	/**Table - Body**/
+
+tbody {
+	font-size: 110%;
+	
+}
+
+.Bool, .else_stat, .com_opt , .or_opt, .not_equal_opt, .hand_except{
+	background-color: #9999ff; /*Lighter blue*/
+	
+}
+
+.if_stat, .elif, .and_opt, .equal_opt, .not_opt{
+	background-color: #ccccff; /*Lightest blue*/
+}
+
+
+
+.ex{
+	padding: 20px;
+	text-align: left;
+}
+
+	/**Table - Headings**/
+.head{
+	font-size: 150%;
+}
+
+
+/*******************************Lists *************************/
+
+/*Table*/
+	/**Table - Body**/
+
+tbody {
+	font-size: 110%;
+	
+}
+
+.Bool, .else_stat, .com_opt , .or_opt, .not_equal_opt, .hand_except{
+	background-color: #9999ff; /*Lighter blue*/
+	
+}
+
+.if_stat, .elif, .and_opt, .equal_opt, .not_opt{
+	background-color: #ccccff; /*Lightest blue*/
+}
+
+
+
+.ex{
+	padding: 20px;
+	text-align: left;
+}
+
+	/**Table - Headings**/
+.head{
+	font-size: 150%;
+}
