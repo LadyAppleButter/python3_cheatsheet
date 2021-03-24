@@ -41,7 +41,30 @@ Today is to place examples for control flow webpage and connect it to the hellow
 		Added examples three sections: elif statement, or statement, and handling exceptions.
 
 
+[2021 March 23 Tues 10:11pm]
 
+	Added links to the current web pages ( lists, hello world, current flow).
+	
+	Added a section in style for lists web page
+	
+	Removed python 3 from head of hello world and control flow web pages
+	
+	Control Flow	
+		Added examples to the rest of the sections: or operations, not operations, equal operations, not equal operations, comparative operators, if statements, else statement, and operators, Bool expressions.
+		
+		Rearranged the sections 
+		
+		Updated the color scheme
+		
+	Hello_World
+		Updated legend 
+		
+	Lists
+		Copied and pasted web format from hello world to lists page
+		
+		Changed the head and h1 to Lists
+		
+	
 
 
 
