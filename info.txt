@@ -65,8 +65,13 @@ Today is to place examples for control flow webpage and connect it to the hellow
 		Changed the head and h1 to Lists
 		
 	
+[2021 March 27 Sat 6:46pm]
 
-
+[2021 March 30 Tues 6:11pm]
+	Lists	
+		Updated class names, keyword and the description for all sections.
+		Earased the previous examples 
+		Removed unneeded content
 
 
 
