@@ -73,6 +73,22 @@ Today is to place examples for control flow webpage and connect it to the hellow
 		Earased the previous examples 
 		Removed unneeded content
 
+[2021 April 3 Sat 4:53pm]
+HERE'S A THOUGHT
+
+	Examples
+		we are going to remove the examples from the current tables and not include them in the upcomming tables. I know; alot of work went into including the examples but here me out: nice chunk of the examples are pulled from the codecademy website (as with some of the descripitions). It does me no good to copy and paste content from codecademy (well I type it up but yeah). 1st: I am confindent in saying this is copying right infridgement; I will give codecademy all the acknowledge they deserved but the content needs to be in my own words. 2nd: Benefits me more to create original examples; think about the content in which the examples are based on and an excused to flex those creative muscles.
+	
+	Finish webpages
+		We are going to continue on with the web page for each topic. Before we fool around with examples or any fancy interactive feature; all the webpages will be completed (keyword and descripition) and linked with one another.
+		
+	Homepage
+		Don't know if it is neccessary but homepage will be implemented. What the content of the page is, havenot gotten that far. 
+		
+	Interactivity 
+		Touch on this in the examples section; developed the site to become more dynamic by including quizzes,exersices, maybe even some sort of interactive story.
+
+
 
 
 
