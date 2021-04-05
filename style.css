@@ -84,12 +84,12 @@ tbody {
 	
 }
 
-.Bool, .else_stat, .com_opt , .or_opt, .not_equal_opt, .hand_except{
+.lists, .data_types, .zero_index, .neg_indices, .len, .slicing{
 	background-color: #9999ff; /*Lighter blue*/
 	
 }
 
-.if_stat, .elif, .and_opt, .equal_opt, .not_opt{
+.Add_List, .append, .indices, .count, .sort, .sorted{
 	background-color: #ccccff; /*Lightest blue*/
 }
 
