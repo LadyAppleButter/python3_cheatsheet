@@ -104,3 +104,64 @@ tbody {
 .head{
 	font-size: 150%;
 }
+/*******************************Loops *************************/
+
+/*Table*/
+	/**Table - Body**/
+
+tbody {
+	font-size: 110%;
+	
+}
+
+.lists, .data_types, .zero_index, .neg_indices, .len, .slicing{
+	background-color: #9999ff; /*Lighter blue*/
+	
+}
+
+.Add_List, .append, .indices, .count, .sort, .sorted{
+	background-color: #ccccff; /*Lightest blue*/
+}
+
+
+
+.ex{
+	padding: 20px;
+	text-align: left;
+}
+
+	/**Table - Headings**/
+.head{
+	font-size: 150%;
+}
+
+/*******************************Function *************************/
+
+/*Table*/
+	/**Table - Body**/
+
+tbody {
+	font-size: 110%;
+	
+}
+
+.lists, .data_types, .zero_index, .neg_indices, .len, .slicing{
+	background-color: #9999ff; /*Lighter blue*/
+	
+}
+
+.Add_List, .append, .indices, .count, .sort, .sorted{
+	background-color: #ccccff; /*Lightest blue*/
+}
+
+
+
+.ex{
+	padding: 20px;
+	text-align: left;
+}
+
+	/**Table - Headings**/
+.head{
+	font-size: 150%;
+}
