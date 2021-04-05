@@ -97,7 +97,25 @@ HERE'S A THOUGHT
 		Comment out the place holders for the examples
 
 
+[Monday 5 April 2021 3:29pm]
+PLAN FOR Today	
+	Create two new webpages: loops and function
+	Copy webpage format from hello_world to the two new webpages
+	Add keywords to both pages
+	Create a section for each webpage on the style sheet
+	Update links
+	Update heading on both pages
+	Update h1 on both pages
+	Update the classes for both pages 
+	
+Added links to hello_world, lists, and control_flow to link them to loops and function webpages.
 
+Loops and Function	
+	Updated the heading and h1
+	Linked the webpages to the previous webpages
+	Added their respective keywords to the webpages
+	Change the classes names to fit the that section
+	Removed excess content
 
 
 
