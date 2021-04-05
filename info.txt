@@ -89,7 +89,12 @@ HERE'S A THOUGHT
 		Touch on this in the examples section; developed the site to become more dynamic by including quizzes,exersices, maybe even some sort of interactive story.
 
 
-
+[Sunday 4 April 2021]
+	Comment out the examples of the following webpages: hello_world, lists, control_flow. Comment out the examples column for the following webpages: hello_world, lists, control_flow. 
+	
+	Lists	
+		Added style to the webpage.
+		Comment out the place holders for the examples
 
 
 
